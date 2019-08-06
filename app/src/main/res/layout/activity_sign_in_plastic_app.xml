@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signInPlasticApp">
+
+
+
+    <ImageView
+        android:id="@+id/iv_binbottle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+       android:src="@drawable/binbottle2"
+        />
+
+
+
+
+
+<EditText
+    android:id="@+id/et_Email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="E-mail"
+    android:textSize="20dp"
+    android:layout_below="@id/iv_binbottle"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="30dp"
+    android:paddingRight="200dp"
+    android:textStyle="bold"
+    />
+
+
+   <EditText
+       android:id="@+id/et_password"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="Password"
+       android:textSize="20dp"
+       android:layout_below="@id/et_Email"
+       android:layout_marginStart="20dp"
+       android:layout_marginTop="30dp"
+       android:paddingRight="170dp"
+       android:textStyle="bold"
+       />
+
+
+    <EditText android:id="@+id/et_forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:layout_below="@id/et_password"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:paddingRight="170dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <Button android:id="@+id/bt_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+      android:layout_below="@id/et_forgotpassword"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
